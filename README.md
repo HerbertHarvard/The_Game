@@ -10,3 +10,6 @@ Ambientado numa tumba egípcia, dois exploradores buscam o botão para escapar e
 ### Gousmas War
 Um jogo estratégico em que cada jogador controla duas criaturas chamadas Gousmas. Elas acumulam fúria ao serem atacadas, podendo se dividir ou se desintegrar caso excedam o nível 5 de fúria. O vencedor é quem conseguir eliminar todas as Gousmas do oponente.
 #### Feito por: Igor Cecim Vilhena e Herbert Aciolly Leão de jesus
+**Linguagem de Programação:** O projeto foi desenvolvido em **C**
+
+**IDE:** Utilizamos o **Visual Studio Code**

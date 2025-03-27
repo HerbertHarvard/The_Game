@@ -1,5 +1,5 @@
 # The Game
-### Sistema de 3 minijogos desenvolvido em C [Visite o projeto aqui](https://github.com/HerbertHarvard/The-game)
+### Sistema de 3 minijogos desenvolvido em C [Visite o jogo aqui](https://github.com/HerbertHarvard/The-game)
 
 
 ### Opções de jogos:

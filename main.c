@@ -4,66 +4,66 @@
 #include <time.h>
 
     void Pergunta_Resposta() {
+    char resp[5];
 
-        char resp[5];
+    printf("\n=== Pergunta e Resposta ===\n");
 
-        printf("\n1"
-            "\n=== Pergunta e Resposta ===\n\n");
-        printf("1 Questao\n"
-            "Qual e a capital da Franca?\n"
-            "a)Londres\nb)Paris\nc)Roma\nd)Berlim\n"
-            "Resposta: ");
-        scanf("%s", resp);
-        if (resp[0] == 'b') {
-                printf("Resposta Correta\n");
-        }else {
-            printf("Resposta Errada\n");
-        }
-
-        printf("\n2 Questao\n"
-            "Qual e o maior planeta do nosso sistema solar?\n"
-            "a)Terra\nb)Jupiter\nc)Saturno\nd)Marte\n"
-            "Resposta: ");
-            scanf("%s", resp);
-        if (resp[1] == 'b') {
-            printf("Resposta Correta\n");
-        }else {
-            printf("Resposta Errada\n");
-        }
-
-        printf("\n3 Questao\n"
-            "Quem escreveu a obra 'Dom Casmurro'?\n"
-            "a)Machado de Assis\nb)Jose de Alencar\nc)Clarice Lispector\nd)Jorge Amado\n"
-            "Rsposta: ");
-            scanf("%s", resp);
-        if (resp[2] == 'a') {
-            printf("Resposta Correta\n");
-        }else {
-            printf("Resposta Errada\n");
-        }
-
-        printf("\n4 Questao\n"
-            "Qual o elemento quimico com o simbolo Fe na tabela periodica?\n"
-            "a)Londres\nb)Paris\nc)Roma\nd)Berlim\n"
-            "Resposta: ");
-        scanf("%s", resp);
-        if (resp[3] == 'b') {
-            printf("Resposta Correta\n");
-        }else {
-            printf("Resposta Errada\n");
-        }
-
-        printf("\n5 Questao\n"
-            "Qual e o nome do fenomeno que descreve a curvatura do espaco-tempo causada pela presenca de massa, conforme\nproposto por Albert Einstein?\n"
-            "a)Efeito Doppler\nb)Teoria da Relatividade\nc)Lei da Gravitacao Universal\nd)Principio da Incerteza\n"
-            "Resposta: ");
-        scanf("%s", resp);
-        if (resp[4] == 'b') {
-            printf("Resposta Correta\n\n");
-        }else {
-            printf("Resposta Errada\n\n");
-        }
+    printf("\n1 Questao\n"
+           "Qual e a capital da Franca?\n"
+           "a) Londres\nb) Paris\nc) Roma\nd) Berlim\n"
+           "Resposta: ");
+    scanf(" %c", &resp[0]);
+    if (resp[0] == 'b') {
+        printf("Resposta Correta\n");
+    } else {
+        printf("Resposta Errada\n");
     }
+
+    printf("\n2 Questao\n"
+           "Qual e o maior planeta do nosso sistema solar?\n"
+           "a) Terra\nb) Jupiter\nc) Saturno\nd) Marte\n"
+           "Resposta: ");
+    scanf(" %c", &resp[0]);
+    if (resp[0] == 'b') {
+        printf("Resposta Correta\n");
+    } else {
+        printf("Resposta Errada\n");
+    }
+
+    printf("\n3 Questao\n"
+           "Quem escreveu a obra 'Dom Casmurro'?\n"
+           "a) Machado de Assis\nb) Jose de Alencar\nc) Clarice Lispector\nd) Jorge Amado\n"
+           "Resposta: ");
+    scanf(" %c", &resp[0]);
+    if (resp[0] == 'a') {
+        printf("Resposta Correta\n");
+    } else {
+        printf("Resposta Errada\n");
+    }
+
+    printf("\n4 Questao\n"
+           "Qual o elemento quimico com o simbolo Fe na tabela periodica?\n"
+           "a) Ferro\nb) Ouro\nc) Prata\nd) Cobre\n"
+           "Resposta: ");
+    scanf(" %c", &resp[0]);
+    if (resp[0] == 'a') {
+        printf("Resposta Correta\n");
+    } else {
+        printf("Resposta Errada\n");
+    }
+
+    printf("\n5 Questao\n"
+           "Qual e o nome do fenomeno que descreve a curvatura do espaco-tempo causada pela presenca de massa, conforme\n"
+           "proposto por Albert Einstein?\n"
+           "a) Efeito Doppler\nb) Teoria da Relatividade\nc) Lei da Gravitacao Universal\nd) Principio da Incerteza\n"
+           "Resposta: ");
+    scanf(" %c", &resp[0]);
+    if (resp[0] == 'b') {
+        printf("Resposta Correta\n\n");
+    } else {
+        printf("Resposta Errada\n\n");
+    }
+}
 //------------------------------------------------------------------------------------------------------------------
     void Cobra_Caixa() {
     int caixa[5];

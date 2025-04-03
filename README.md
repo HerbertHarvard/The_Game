@@ -14,4 +14,4 @@ Um jogo estratégico em que cada jogador controla duas criaturas chamadas Gousma
 
 **IDE:** Utilizamos o **Visual Studio Code**
 
-**Material usado:** ChatGPT (apoio para fazer o Gousmar Game e uma parte no cobra na caixa)
+**Material usado:** ChatGPT (apoio para fazer o Gousmas Game e uma parte no cobra na caixa)
